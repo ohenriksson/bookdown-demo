@@ -3,3 +3,9 @@ language:
   ui:
     chapter_name: "Chapter "
 delete_merged_file: true
+rmd_files:
+  latex: ["index.Rmd"]
+  html: ["index.Rmd"]
+output:
+  bookdown::pdfbook:
+    keep_tex:yes
